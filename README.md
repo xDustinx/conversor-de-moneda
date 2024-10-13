@@ -1,12 +1,11 @@
 <h1> HOLA MUNDO</h1>
 ![Maradona](https://github.com/user-attachments/assets/cb2b15dd-6983-449b-a228-89cc73ad363a)
-<h1> HOLA MUNDO</h1>
-![Maradona](https://github.com/user-attachments/assets/cb2b15dd-6983-449b-a228-89cc73ad363a)
-## Clase Principal
-`import java.util.Scanner;
 
-public class Principal {
-    public static void main(String[] args) {
+## Clase Principal
+
+	import java.util.Scanner;
+    public class Principal {
+       public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean continuar = true;
 
@@ -49,4 +48,4 @@ public class Principal {
             }
         }
     }
-}`
+}
