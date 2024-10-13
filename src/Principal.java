@@ -12,13 +12,14 @@ public class Principal {
                     + "\nPeso argentimo     = ARS | peso boliviano = BOB | peso chileno      = CLP | peso colombiano = COP | real brazilero  = BRS"
                     + "\npeso uruguayo      = UYU | peso mexicano  = MXN | nuevo sol peruano = PEN | Yuan chino      = CNY | Peso filipino   = PHP"
                     + "\ndólar de Hong Kong = HKD | won surcoreano = KRV | rupia india       = INR | rublo ruso      = RUB | libra esterlina = GBP" + "\n");
-            System.out.println("Introduce la moneda de origen (por ejemplo, USD): ");
+
+            System.out.println("Escribe la moneda para convertir, ejemplo: USD = dólar americano");
             String monedaParaConvertir = scanner.nextLine().toUpperCase();
 
-            System.out.println("Introduce la moneda de destino (por ejemplo, EUR): ");
+            System.out.println("Escribe la moneda que deseas optener, ejemplo: EUR = euro");
             String monedaConvertida = scanner.nextLine().toUpperCase();
 
-            System.out.println("Introduce el monto a convertir: ");
+            System.out.println("Que cantidad deseas convertir?");
             double cantidad = scanner.nextDouble();
 
             Moneda moneda = new Moneda(monedaParaConvertir, monedaConvertida, cantidad);

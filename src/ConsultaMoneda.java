@@ -37,6 +37,6 @@ public class ConsultaMoneda {
 
         } catch (Exception e) {
             throw new RuntimeException("No se pudo completar la conversión: " + e.getMessage());
-        }
+            }
     }
 }
