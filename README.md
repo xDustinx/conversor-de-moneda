@@ -13,7 +13,7 @@
 	            System.out.println("\nAsegúrese de usar la nomenclatura correcta para el nombre de las monedas. " +
 	                    "\nEs posible hacer uso de monedas que no se encuentren en la lista de sugerencias descritas " +
 	                    "\nmas abajo, siempre y cuando esten soportadas por la API y, la abreviatura sea correcta." + "\n"
-	                    + "\nPeso argentimo     = ARS | peso boliviano = BOB | peso chileno      = CLP | peso colombiano = COP | real brazilero  = BRS"
+	                    + "\nPeso argentimo     = ARS | peso boliviano = BOB | peso chileno      = CLP | peso colombiano = COP | real brazilero  = BRL"
 	                    + "\npeso uruguayo      = UYU | peso mexicano  = MXN | nuevo sol peruano = PEN | Yuan chino      = CNY | Peso filipino   = PHP"
 	                    + "\ndólar de Hong Kong = HKD | won surcoreano = KRV | rupia india       = INR | rublo ruso      = RUB | libra esterlina = GBP" + "\n");
 	
