@@ -1,9 +1,7 @@
-<h1> HOLA MUNDO</h1>
-##
-![Maradona](https://github.com/user-attachments/assets/cb2b15dd-6983-449b-a228-89cc73ad363a)
-
+# Presentando el desafío (Conversor de monedas) de ALURA LATAM.
+![baner del desafio](https://github.com/user-attachments/assets/5de83a43-0054-4146-8a01-18e5b75cedfc)
 ## Clase Principal.
-
+```ruby
 	import java.util.Scanner;
 	    public class Principal {
 	       public static void main(String[] args) {
@@ -50,13 +48,19 @@
 	        }
 	    }
 	}
+```
 ## Clase Moneda.
+```ruby
 	public record Moneda(String monedaParaConvertir,
                      String monedaConvertida,
                      double cantidad) {
 	}
+```
+
+
  ## Clase ConsultaMoneda.
-	 import java.net.URI;
+```ruby
+import java.net.URI;
 	import java.net.http.HttpClient;
 	import java.net.http.HttpRequest;
 	import java.net.http.HttpResponse;
@@ -72,7 +76,7 @@
 
     //  consulta y conversión
     public double convertirMoneda(Moneda moneda) {
-        String apiKey = "146c12dd684d94a3e717e463";
+        String apiKey = "******************";
         String url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + moneda.monedaParaConvertir() + "/" + moneda.monedaConvertida();
 
         HttpClient client = HttpClient.newHttpClient();
@@ -96,8 +100,9 @@
         } catch (Exception e) {
             throw new RuntimeException("No se pudo completar la conversión: " + e.getMessage());
             }
- 	   }
+ 	  }
 	}
+```
 ## Demostración:
 ![demo_1](https://github.com/user-attachments/assets/2194e0ee-df77-47bd-85ab-e86997ba583c)
 ![demo_2](https://github.com/user-attachments/assets/650e9ac5-a3d2-4f45-a6c3-cb5fe4a23852)
